@@ -6,8 +6,12 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ProfileController;
 
 Route::get('/', function () {
-    return view('');
-});
+    return view('pages.landing-pages.index');
+})->name('home');
+
+Route::get('/tentang-saya', function () {
+    return view('pages.landing-pages.tentang-saya');
+})->name('about-me');
 
 
 // LOGIN

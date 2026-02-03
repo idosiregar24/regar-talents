@@ -1,18 +1,20 @@
-        <!-- [ Footer ] start -->
-        <footer class="footer">
-            <p class="fs-11 text-muted fw-medium text-uppercase mb-0 copyright">
-                <span>Copyright ©</span>
-                <script>
-                    document.write(new Date().getFullYear());
-                </script>
-            </p>
-            <p><span>By: <a target="_blank" href="https://wrapbootstrap.com/user/theme_ocean"
-                        target="_blank">theme_ocean</a></span> • <span>Distributed by: <a target="_blank"
-                        href="https://themewagon.com" target="_blank">ThemeWagon</a></span></p>
-            <div class="d-flex align-items-center gap-4">
-                <a href="javascript:void(0);" class="fs-11 fw-semibold text-uppercase">Help</a>
-                <a href="javascript:void(0);" class="fs-11 fw-semibold text-uppercase">Terms</a>
-                <a href="javascript:void(0);" class="fs-11 fw-semibold text-uppercase">Privacy</a>
-            </div>
-        </footer>
-        <!-- [ Footer ] end -->
+<!-- [ Footer ] start -->
+<footer class="footer">
+    <p class="fs-11 text-muted fw-medium mb-0">
+        © <script>document.write(new Date().getFullYear());</script>
+        <span class="fw-semibold">RegarTalents+</span>
+    </p>
+
+    <p class="fs-11 text-muted mb-0">
+        Sistem dikelola oleh
+        <span class="fw-semibold text-dark">Hottison Siregar</span>
+        sebagai penyedia jasa pengelolaan data & sistem informasi.
+    </p>
+
+    <div class="d-flex align-items-center gap-4 mt-2">
+        <a href="javascript:void(0);" class="fs-11 fw-semibold text-uppercase">Bantuan</a>
+        <a href="javascript:void(0);" class="fs-11 fw-semibold text-uppercase">Ketentuan</a>
+        <a href="javascript:void(0);" class="fs-11 fw-semibold text-uppercase">Privasi</a>
+    </div>
+</footer>
+<!-- [ Footer ] end -->

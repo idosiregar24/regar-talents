@@ -55,11 +55,6 @@
                     <span>Profile Details</span>
                 </a>
 
-                <a href="#" class="dropdown-item">
-                    <i class="feather-settings"></i>
-                    <span>Account Settings</span>
-                </a>
-
                 <div class="dropdown-divider"></div>
 
                 {{-- LOGOUT (WAJIB POST) --}}
