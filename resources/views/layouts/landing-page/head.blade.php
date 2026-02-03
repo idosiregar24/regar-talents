@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Gilb - Resume Template By Colorlib</title>
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="{{asset('assets-landing-pages/img/Logo-Simple.png')}}" type="image/png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('assets-landing-pages/css/bootstrap.min.css')}}">
     <!-- animate CSS -->
