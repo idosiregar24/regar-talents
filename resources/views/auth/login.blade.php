@@ -16,7 +16,7 @@
 
                 {{-- LOGO --}}
                 <div class="wd-50 mb-4">
-                    <img src="{{ asset('assets/images/logo-abbr.png') }}" alt="" class="img-fluid">
+                    <img src="{{ asset('assets/images/Logo-Simple.png') }}" alt="" class="img-fluid">
                 </div>
 
                 {{-- TITLE --}}

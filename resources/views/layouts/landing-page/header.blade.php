@@ -11,11 +11,12 @@
                     </a>
 
                     <!-- Toggle Mobile -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="menu_icon"><i class="ti-menu"></i></span>
                     </button>
+
 
                     <!-- Menu -->
                     <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
