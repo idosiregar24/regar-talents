@@ -783,14 +783,11 @@ ul {
 
 /* line 79, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_blog.scss */
 .single-blog .tag {
-  text-align: left;
-  display: inline-block;
-  float: left;
   font-size: 13px;
   font-weight: 300;
   margin-right: 22px;
-  position: relative;
 }
+
 
 /* line 89, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_blog.scss */
 .single-blog .tag:after {
