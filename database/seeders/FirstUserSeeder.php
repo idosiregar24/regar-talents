@@ -12,7 +12,7 @@ class FirstUserSeeder extends Seeder
     {
         $users = [
             [
-                'email' => 'hottisonsiregar68@gmail.com',
+                'email' => 'hottisonsiregar78@gmail.com',
                 'name'  => 'Hottison Siregar',
                 'role'  => 'admin',
             ],

@@ -4,7 +4,7 @@
             <div class="col-lg-6">
                 <div class="footer_text">
                     <span>Hubungi Saya</span>
-                    <h2>hottisonsiregar68@gmail.com</h2>
+                    <h2>hottisonsiregar78@gmail.com</h2>
                     <p class="mt-2">WhatsApp: 081268101958</p>
                 </div>
             </div>
