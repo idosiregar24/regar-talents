@@ -7,7 +7,7 @@
 
                     <!-- Logo -->
                     <a class="navbar-brand" href="{{ route('home') }}">
-                        <img src="{{ asset('assets-landing-pages/img/Logo-Simple.png') }}" alt="logo">
+                        <img src="{{ asset('assets-landing-pages/img/logo.svg') }}" alt="logo">
                     </a>
 
                     <!-- Toggle Mobile -->

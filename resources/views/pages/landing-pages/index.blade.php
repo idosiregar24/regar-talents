@@ -14,8 +14,8 @@
                             <h1>Hottison Siregar</h1>
                             <p class="mt-2">
                                 Konsultan Administrasi & Dokumen Resmi yang membantu
-                                pengurusan data dan layanan administrasi secara rapi,
-                                aman, dan terpercaya.
+                                pengurusan data dan layanan administrasi secara Cepat,
+                                Aman, dan Terpercaya.
                             </p>
                             <div class="banner_btn mt-3">
                                 <a href="#contact" class="btn_1">

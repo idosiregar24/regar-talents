@@ -2183,6 +2183,36 @@ ul {
   margin-top: 10px;
 }
 
+/* Navbar */
+.navbar {
+    height: 90px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Brand */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+/* Logo SVG */
+.navbar-brand img {
+    height: 58px;       /* ukuran ideal untuk navbar */
+    width: auto;        /* jaga rasio 768:168 */
+    max-height: 100%;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-height: 28px;
+    }
+}
+
+
 /* line 45, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_menu.scss */
 .main_menu .navbar-brand {
   padding-top: 0rem;
@@ -2392,7 +2422,7 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_banner.scss */
 .banner_part {
-  height: 1075px;
+  min-height: 100vh; /* lebih fleksibel dari height tetap */
   position: relative;
   background-image: url(../img/foto-hottison.png);
   background-repeat: no-repeat;
@@ -2400,15 +2430,21 @@ ul {
   background-position: right bottom;
   z-index: 2;
   background-color: #0d0f5b;
+  padding: 50px 0;
 }
 
+
 @media (max-width: 991px) {
-  /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_banner.scss */
+
   .banner_part {
-    height: 650px;
-    background-image: none;
+    min-height: auto;
+    padding: 60px 0 350px 0; /* beri ruang untuk foto */
+    background-size: 400px;  /* kecilkan foto */
+    background-position: center bottom;
   }
+
 }
+
 
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
   /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_banner.scss */
