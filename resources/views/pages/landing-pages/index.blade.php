@@ -44,8 +44,9 @@
                     <div class="section_tittle text-center">
                         <br>
                         <br>
-                        <p>Layanan Jasa</p>
-                        <h2>Biro Jasa Regar Talent’s</h2>
+                        <h4>Layanan Jasa</h4>
+                        <h2><b>Regar Talent’s Admin Service</b></h2>
+                        <h3>Cepat, Aman, Terpercaya.</h3>
                     </div>
                 </div>
             </div>
