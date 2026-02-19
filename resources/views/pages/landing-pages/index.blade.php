@@ -2,22 +2,22 @@
 
 @section('content')
     <!-- =======================
-         Banner / Hero Section
-    ======================= -->
-    <section class="banner_part">
+             Banner / Hero Section
+        ======================= -->
+    <section class="banner_part custom-hero">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7">
-                    <div class="banner_text">
-                        <div class="banner_text_iner">
+                    <div class="custom-hero-content">
+                        <div class="custom-hero-text">
                             <h5>Halo, saya</h5>
                             <h1>Hottison Siregar</h1>
-                            <p class="mt-2">
+                            <p>
                                 Konsultan Administrasi & Dokumen Resmi yang membantu
                                 pengurusan data dan layanan administrasi secara Cepat,
                                 Aman, dan Terpercaya.
                             </p>
-                            <div class="banner_btn mt-3">
+                            <div class="banner_btn mt-4">
                                 <a href="#contact" class="btn_1">
                                     Hubungi Saya
                                 </a>
@@ -29,13 +29,13 @@
         </div>
     </section>
     <!-- =======================
-         End Banner
-    ======================= -->
+             End Banner
+        ======================= -->
 
 
     <!-- =======================
-         Services Section
-    ======================= -->
+             Services Section
+        ======================= -->
     <section class="service_part padding_bottom">
         <div class="container">
 
@@ -57,8 +57,7 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="single_service_part h-100">
                         <div class="single_service_text">
-                            <h2>Dokumen Kependudukan</h2>
-                            <p>Pengurusan dokumen kependudukan:</p>
+                            <h2>Pengurusan dokumen kependudukan</h2>
                             <ul class="service_list">
                                 <li>Dokumen baru</li>
                                 <li>Dokumen hilang</li>
@@ -120,6 +119,6 @@
     </section>
 
     <!-- =======================
-         End Services
-    ======================= -->
+             End Services
+        ======================= -->
 @endsection
