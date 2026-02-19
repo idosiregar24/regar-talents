@@ -4671,7 +4671,7 @@ h6 {
 
 /* line 30, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_footer.scss */
 .footer_Part .footer_text {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 991px) {
@@ -4685,7 +4685,7 @@ h6 {
 .footer_Part .footer_text span {
   color: #ea5267;
   text-transform: uppercase;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
   display: inline-block;
 }
 
@@ -4726,7 +4726,7 @@ h6 {
     word-wrap: break-word;
     word-break: break-all; /* Memaksa email patah di mana saja jika terlalu panjang */
     overflow-wrap: break-word;
-    font-size: 24px; /* Kecilkan sedikit font-size khusus mobile jika masih terlalu besar */
+    font-size: 22px; /* Kecilkan sedikit font-size khusus mobile jika masih terlalu besar */
 }
 
 /* line 60, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_footer.scss */
