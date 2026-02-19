@@ -2446,7 +2446,7 @@ ul {
 }
 
 
-@media only screen and (min-width: 991px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_banner.scss */
   .banner_part {
     height: 700px;
@@ -2553,7 +2553,7 @@ ul {
   }
 }
 
-@media only screen and (min-width: 991px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   /* line 75, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_banner.scss */
   .banner_part .banner_text h1 {
     font-size: 40px;
