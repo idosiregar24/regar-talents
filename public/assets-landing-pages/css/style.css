@@ -4702,7 +4702,7 @@ h6 {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   /* line 30, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_footer.scss */
   .footer_Part .footer_text {
     text-align: center;
@@ -4714,7 +4714,7 @@ h6 {
   text-align: right;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   /* line 52, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_footer.scss */
   .footer_Part .footer_btn {
     text-align: center;
