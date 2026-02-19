@@ -3,6 +3,12 @@
 /**************** common css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
 /* line 3, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_common.scss */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   padding: 0;
@@ -2435,14 +2441,18 @@ ul {
 
 
 @media (max-width: 991px) {
-
   .banner_part {
     min-height: auto;
-    padding: 60px 0 350px 0; /* beri ruang untuk foto */
-    background-size: 400px;  /* kecilkan foto */
+    padding: 100px 0 450px 0; /* Tambah padding bawah untuk ruang foto */
+    background-size: 80%; /* Atur ukuran foto agar tidak menutupi teks */
     background-position: center bottom;
+    width: 100% !important;
   }
 
+  .banner_part .banner_text {
+    height: auto; /* Jangan biarkan height 1075px di mobile */
+    text-align: center;
+  }
 }
 
 
@@ -2598,8 +2608,10 @@ ul {
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 1920px;
+  width: 100% !important;
   height: 7359px;
+  max-width: 100vw;
+  overflow: hidden;
   z-index: 368;
 }
 
