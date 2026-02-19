@@ -9,7 +9,7 @@
     <title>Regar Talents</title>
     <!--! END:  Apps Title-->
     <!--! BEGIN: Favicon-->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/Logo-Simple.png') }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets-landing-pages/img/mini-logo.svg')}}" />
     <!--! END: Favicon-->
     <!--! BEGIN: Bootstrap CSS-->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />

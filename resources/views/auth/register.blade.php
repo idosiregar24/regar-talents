@@ -4,7 +4,7 @@
         <div class="auth-cover-content-inner">
             <div class="auth-cover-content-wrapper">
                 <div class="auth-img">
-                    <img src="assets/images/auth/auth-cover-register-bg.svg" alt="" class="img-fluid">
+                    <img src="assets-landing-pages/img/mini-logo.svg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
