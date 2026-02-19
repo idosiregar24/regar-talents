@@ -160,7 +160,7 @@ h2 {
 @media (max-width: 575px) {
   /* line 85, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_common.scss */
   h2 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 25px;
   }
 }
@@ -4720,6 +4720,13 @@ h6 {
     text-align: center;
     margin-bottom: 30px;
   }
+}
+
+.footer_text h2 {
+    word-wrap: break-word;
+    word-break: break-all; /* Memaksa email patah di mana saja jika terlalu panjang */
+    overflow-wrap: break-word;
+    font-size: 24px; /* Kecilkan sedikit font-size khusus mobile jika masih terlalu besar */
 }
 
 /* line 60, /Applications/MAMP/htdocs/palash/cl/july 2019/july/195 Resume/195 resume html/sass/_footer.scss */
